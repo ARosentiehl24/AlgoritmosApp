@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AlgorithmsApp</string>
+    <string name="algorithms">Algorithms</string>
+    <string name="title_activity_main">AlgorithmsApp</string>
+    <string name="title_basic_instructions">Basic Instructions</string>
+    <string name="input_output">I/O</string>
+    <string name="title_conditionals">Conditionals</string>
+    <string name="title_loops">Loops</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message_basic_instructions">An algorithm can be defined as a sequence of instructions that represent a solution model for certain types of problems. Or as a set of instructions made in order lead to get the solution of a problem.\n\nThe algorithms are independent of the programming languages.</string>
+    <string name="close">Close</string>
+    <string name="message_conditionals">Son aquellos que permiten comparar una variable contra otro valor, se utilizan para tomar decisiones lógicas, existen tres tipos.</string>
+    <string name="message_loops">Son aquellos tipos de estructura que repiten una secuencia de instrucciones un número determinado de veces, para encontrar la solución a un problema, estas son denominados como bucles o ciclos.</string>
+</resources>

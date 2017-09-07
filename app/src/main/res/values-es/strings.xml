@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlgoritmosApp</string>
+    <string name="input_output">Entrada y Salida</string>
+    <string name="title_activity_main">AlgoritmosApp</string>
+    <string name="title_basic_instructions">Instrucciones básicas</string>
+    <string name="title_conditionals">Condicionales</string>
+    <string name="algorithms">Algoritmos</string>
+    <string name="title_loops">Bucles</string>
+    <string name="close">Cerrar</string>
+    <string name="message_basic_instructions">Un algoritmo se puede definir como una secuencia de instrucciones que representan un modelo de solución para determinado tipo de problemas. O bien como un conjunto de instrucciones que realizadas en orden conducen a obtener la solución de un problema.\n\nLos algoritmos son independientes de los lenguajes de programación.</string>
+</resources>

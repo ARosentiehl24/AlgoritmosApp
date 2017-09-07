@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unimagdalena.android.app.algoritmosapp.view.activity.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_university_logo" />
+
+    <com.unimagdalena.android.app.algoritmosapp.view.custom.particleview.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/ivBottomBanner"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:layout_constraintVertical_bias="0.572"
+        app:pv_background_color="@color/colorPrimaryDark"
+        app:pv_host_text="@string/algorithms"
+        app:pv_host_text_anim_time="1000"
+        app:pv_host_text_size="48sp"
+        app:pv_particle_text="App"
+        app:pv_particle_text_size="36sp"
+        app:pv_spread_anim_time="1000"
+        app:pv_text_anim_time="1000"
+        app:pv_text_color="#fafafa" />
+
+    <ImageView
+        android:id="@+id/ivBottomBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="356dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:cropToPadding="true"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:srcCompat="@drawable/ic_bottom_banner" />
+</android.support.constraint.ConstraintLayout>
